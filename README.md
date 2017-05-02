@@ -22,5 +22,8 @@ Application Protocols Layer  | Protocols specific to applications such as WWW, e
 TCP Layer  | TCP directs packets to a specific application on a computer using a port number.
 Internet Protocol Layer  | IP directs packets to a specific computer using an IP address.
 Hardware Layer  | Converts binary packet data to network signals and back. (E.g. ethernet network card, modem for phone lines, etc.)
+
+![alt text](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper_files/ruswp_diag2.gif)
+
 ### Resources
 https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
