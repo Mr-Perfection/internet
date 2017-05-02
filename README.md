@@ -15,5 +15,10 @@ If you connect to the Internet from a local area network (LAN) your computer mig
 ### 2. Protocol Stacks and Packets
 
 
+Protocal Layer  | Comments
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
 ### Resources
 https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
