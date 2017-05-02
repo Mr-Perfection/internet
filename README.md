@@ -27,7 +27,7 @@ Hardware Layer  | Converts binary packet data to network signals and back. (E.g.
 
 1. The message would start at the top of the protocol stack on your computer and work it's way downward. If the message to be sent is long, each stack layer that the message passes through may break the message up into smaller chunks of data. This is because data sent over the Internet (and most computer networks) are sent in manageable chunks. On the Internet, these chunks of data are known as [packets](http://computer.howstuffworks.com/question525.htm) 1000-1500 bytes of data.
 
-2. The packets would go through the Application Layer and continue to the TCP layer. Each packet is assigned a port number. Ports will be explained later, but suffice to say that many programs may be using the TCP/IP stack and sending messages. We need to know which program on the destination computer needs to receive the message because it will be listening on a specific port.
+2. The packets would go through the Application Layer and continue to the TCP layer. Each packet is assigned a port number. [Ports](http://searchnetworking.techtarget.com/definition/well-known-port-numbers) will be explained later, but suffice to say that many programs may be using the TCP/IP stack and sending messages. We need to know which program on the destination computer needs to receive the message because it will be listening on a specific port.
 
 3. After going through the TCP layer, the packets proceed to the IP layer. This is where each packet receives it's destination address, 5.6.7.8.
 
