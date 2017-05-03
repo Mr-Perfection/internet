@@ -41,5 +41,19 @@ Hardware Layer  | Converts binary packet data to network signals and back. (E.g.
 
 8. When the data reaches the top of the stack, the packets have been re-assembled into their original form, "Hello computer 5.6.7.8!"
 
+### 3. Application Protocols: HTTP and the World Wide Web
+**HTTP Protocol**
+HTTP is the protocol that web browsers and web servers use to communicate with each other over the Internet. It is an application level protocol because it sits on top of the TCP layer in the protocol stack and is used by specific applications to talk to one another. In this case the applications are web browsers and web servers.
+
+When you first type a URL into a web browser, this happens:
+1. The browser first connects to the domain name server (DNS) and retrieve a corresponding IP address for the web server.
+2. The web browser connects to the web server and sends the HTTP request for the desired web page.
+3. The web server receives the request and checks for the desired page. If the page exists, the web server sends it. If the server cannot find the requested page, it will send an HTTP 404 error.
+4. The web browser receives the page back and the connection is closed.
+5. The browser then parses through the page and looks for other page elements it needs to complete the web page. These usually include images, applets, etc.
+6. For each element needed, the browser makes additional connections and HTTP requests to the server for each element.
+7. When the browser has finished loading all images, applets, etc. the page will be completely loaded in the browser window.
+
+
 ### Resources
 https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
