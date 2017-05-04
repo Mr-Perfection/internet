@@ -43,7 +43,7 @@ Hardware Layer  | Converts binary packet data to network signals and back. (E.g.
 8. When the data reaches the top of the stack, the packets have been re-assembled into their original form, "Hello computer 5.6.7.8!"
 
 ### 3. Application Protocols: HTTP and the World Wide Web
-**HTTP Protocol**
+#### HTTP Protocol
 HTTP (Hypertext Transfer Protocol) is the protocol that web browsers and web servers use to communicate with each other over the Internet. It is an application level protocol because it sits on top of the TCP layer in the protocol stack and is used by specific applications to talk to one another. In this case the applications are web browsers and web servers.
 
 HTTP is a *connectionless text based protocol*. Clients (web browsers) send requests to web servers for web elements such as web pages and images. **After the request is serviced by a server, the connection between client and server across the Internet is disconnected. A new connection must be made for each request.** Most protocols are connection oriented. This means that the two computers communicating with each other keep the connection open over the Internet. HTTP does not however. Before an HTTP request can be made by a client, a new connection must be made to the server.
@@ -57,8 +57,9 @@ When you first type a URL into a web browser, this happens:
 6. For each element needed, the browser makes additional connections and HTTP requests to the server for each element.
 7. When the browser has finished loading all images, applets, etc. the page will be completely loaded in the browser window.
 
-**SMTP and Electronic Mail Protocol**
-SMTP is also 
+#### SMTP and Electronic Mail Protocol
+SMTP (Simple Mail Transfer Protocol) is also ***text based protocol* but unlike HTTP, it is connection oriented.**
+
 
 ### Port Numbers
 Protocol  | Port #
