@@ -60,6 +60,11 @@ When you first type a URL into a web browser, this happens:
 #### SMTP and Electronic Mail Protocol
 SMTP (Simple Mail Transfer Protocol) is also ***text based protocol* but unlike HTTP, it is connection oriented.**
 
+1. The mail client like Apple Mail opens a connection to its default mail server.
+2. The mail server will always transmit the first message to identify itself.
+3. The client will send an SMTP HELO command to which the server will respond with a 250 OK message
+4. Depending on what Client is doing i.e checking mail, the appropriate SMTP commands will be sent to the server which responds accordingly.
+5. This request/response transaction will continue until the client sends an SMTP QUIT command abd the server will terminate the request and say goodbye.
 
 ### Port Numbers
 Protocol  | Port #
