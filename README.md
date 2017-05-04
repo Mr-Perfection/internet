@@ -44,7 +44,9 @@ Hardware Layer  | Converts binary packet data to network signals and back. (E.g.
 
 ### 3. Application Protocols: HTTP and the World Wide Web
 **HTTP Protocol**
-HTTP is the protocol that web browsers and web servers use to communicate with each other over the Internet. It is an application level protocol because it sits on top of the TCP layer in the protocol stack and is used by specific applications to talk to one another. In this case the applications are web browsers and web servers.
+HTTP (Hypertext Transfer Protocol) is the protocol that web browsers and web servers use to communicate with each other over the Internet. It is an application level protocol because it sits on top of the TCP layer in the protocol stack and is used by specific applications to talk to one another. In this case the applications are web browsers and web servers.
+
+HTTP is a *connectionless text based protocol*. Clients (web browsers) send requests to web servers for web elements such as web pages and images. **After the request is serviced by a server, the connection between client and server across the Internet is disconnected. A new connection must be made for each request.** Most protocols are connection oriented. This means that the two computers communicating with each other keep the connection open over the Internet. HTTP does not however. Before an HTTP request can be made by a client, a new connection must be made to the server.
 
 When you first type a URL into a web browser, this happens:
 1. The browser first connects to the domain name server (DNS) and retrieve a corresponding IP address for the web server.
@@ -55,6 +57,8 @@ When you first type a URL into a web browser, this happens:
 6. For each element needed, the browser makes additional connections and HTTP requests to the server for each element.
 7. When the browser has finished loading all images, applets, etc. the page will be completely loaded in the browser window.
 
+**SMTP and Electronic Mail Protocol**
+SMTP is also 
 
 ### Port Numbers
 Protocol  | Port #
