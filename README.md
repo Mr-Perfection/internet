@@ -18,10 +18,11 @@ If you connect to the Internet from a local area network (LAN) your computer mig
 
 Protocal Layer  | Comments
 ------------- | -------------
-Application Protocols Layer  | Protocols specific to applications such as WWW, e-mail, FTP, etc.
+Application Protocols Layer  | Protocols specific to applications such as WWW (world wide web), e-mail, and [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol) 
 TCP Layer  | TCP directs packets to a specific application on a computer using a port number.
 Internet Protocol Layer  | IP directs packets to a specific computer using an IP address.
 Hardware Layer  | Converts binary packet data to network signals and back. (E.g. ethernet network card, modem for phone lines, etc.)
+
 
 ![alt text](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper_files/ruswp_diag2.gif)
 
@@ -55,5 +56,13 @@ When you first type a URL into a web browser, this happens:
 7. When the browser has finished loading all images, applets, etc. the page will be completely loaded in the browser window.
 
 
+### Port Numbers
+Protocol  | Port #
+------------- | -------------
+FTP  | 20/21
+Telnet  | 23
+SMTP  | 25
+HTTP  | 80
+MORE on [here](http://www.pearsonitcertification.com/articles/article.aspx?p=1868080)
 ### Resources
 https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm
